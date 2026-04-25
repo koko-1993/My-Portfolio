@@ -175,4 +175,28 @@ document.addEventListener('DOMContentLoaded', () => {
   }, { threshold: 0.5 });
 
   statNumbers.forEach(el => counterObserver.observe(el));
+
+  // ========== Glass Card Cursor Spotlight ==========
+  const glassCards = document.querySelectorAll('.glass-card');
+  glassCards.forEach(card => {
+    // Mouse support (desktop)
+    card.addEventListener('mousemove', (e) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      card.style.setProperty('--mouse-x', x + 'px');
+      card.style.setProperty('--mouse-y', y + 'px');
+    });
+    // Touch support (mobile)
+    card.addEventListener('touchmove', (e) => {
+      const touch = e.touches[0];
+      if (touch) {
+        const rect = card.getBoundingClientRect();
+        const x = touch.clientX - rect.left;
+        const y = touch.clientY - rect.top;
+        card.style.setProperty('--mouse-x', x + 'px');
+        card.style.setProperty('--mouse-y', y + 'px');
+      }
+    }, { passive: true });
+  });
 });
