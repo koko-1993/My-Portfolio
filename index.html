@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ko Ko — IT Support Officer & Web Developer</title>
+  <meta name="description" content="Ko Ko's portfolio — IT Support Officer at ILBC & Web Developer from Myanmar." />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#hero" class="nav-logo"><i class="fas fa-rocket"></i> <span>My Portfolio</span></a>
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ========== HERO ========== -->
+  <section class="hero section" id="hero">
+    <div class="hero-bg">
+      <canvas id="particles-canvas"></canvas>
+    </div>
+    <div class="container">
+      <div class="hero-content">
+        <p class="hero-greeting">Hello, I'm <span class="wave">👋</span></p>
+        <h1 class="hero-name">
+          <span class="gradient-text">Ko Ko</span>
+        </h1>
+        <p class="hero-role">
+          <span class="typewriter-text"></span><span class="cursor"></span>
+        </p>
+        <p class="hero-desc">
+          Passionate about technology and problem-solving. I combine IT infrastructure expertise with web development
+          skills to build efficient, user-friendly digital solutions.
+        </p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn btn-primary btn-ripple">
+            <i class="fas fa-briefcase"></i> View My Work
+          </a>
+          <a href="#contact" class="btn btn-outline">
+            <i class="fas fa-envelope"></i> Contact Me
+          </a>
+        </div>
+        <div class="hero-socials">
+          <a href="https://github.com/koko-1993" target="_blank" rel="noopener" aria-label="GitHub"><i
+              class="fab fa-github"></i></a>
+          <a href="mailto:koko2652010@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="assets/Ko_Ko_CV.pdf" download class="btn-cv" aria-label="Download CV"><i class="fas fa-download"></i>
+            CV Form</a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-avatar animate-float">
+          <img src="assets/images/profile.jpg" alt="Ko Ko - Profile photo" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT ========== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">Get to Know Me</h2>
+        <p class="section-desc">Technology နဲ့ problem-solving ကို ဝါသနာပါသူ developer တစ်ယောက်ပါ။</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal">
+          <div class="about-image glass-card animate-pulse-glow">
+            <img src="assets/images/profile.jpg" alt="Ko Ko - About photo" />
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <h3>I'm Ko Ko — IT Support Officer & Web Developer</h3>
+          <p>
+            ILBC မှာ IT Support Officer အနေနဲ့ တာဝန်ထမ်းဆောင်နေပြီး web development ကိုလည်း
+            passion နဲ့ လုပ်ဆောင်ပါတယ်။ Network infrastructure, system administration နဲ့
+            troubleshooting အတွေ့အကြုံတွေ ရှိပါတယ်။
+          </p>
+          <p>
+            အလုပ်ချိန်ပြင်ပမှာ web applications တွေ build လုပ်ခြင်း၊ chat systems တွေ develop
+            လုပ်ခြင်း၊ နဲ့ နည်းပညာ အသစ်တွေ လေ့လာခြင်းတို့ကို စိတ်ဝင်စားပါတယ်။
+          </p>
+          <div class="about-stats">
+            <div class="stat-card glass-card">
+              <div class="stat-number" data-count="14" data-suffix="+">0</div>
+              <div class="stat-label">Projects</div>
+            </div>
+            <div class="stat-card glass-card">
+              <div class="stat-number" data-count="2" data-suffix="+">0</div>
+              <div class="stat-label">Years Exp</div>
+            </div>
+            <div class="stat-card glass-card">
+              <div class="stat-number" data-count="15" data-suffix="+">0</div>
+              <div class="stat-label">Technologies</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SKILLS ========== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">My Skills</span>
+        <h2 class="section-title">Technologies I Work With</h2>
+        <p class="section-desc">A curated set of tools and technologies I use to bring ideas to life.</p>
+      </div>
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category glass-card reveal">
+          <div class="skill-category-icon"><i class="fas fa-palette"></i></div>
+          <h3>Frontend</h3>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fab fa-html5" style="color:#e34f26"></i><span>HTML5</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="95%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fab fa-css3-alt" style="color:#1572b6"></i><span>CSS3</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="90%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fab fa-js" style="color:#f7df1e"></i><span>JavaScript</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="88%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fab fa-react" style="color:#61dafb"></i><span>React</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="85%"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Backend -->
+        <div class="skill-category glass-card reveal">
+          <div class="skill-category-icon"><i class="fas fa-server"></i></div>
+          <h3>Backend</h3>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fab fa-node-js" style="color:#339933"></i><span>Node.js</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fab fa-python" style="color:#3776ab"></i><span>Python</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="75%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fas fa-feather" style="color:#02569B"></i><span>Dart/Flutter</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="70%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fas fa-database" style="color:#4479a1"></i><span>MongoDB</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="72%"></div>
+            </div>
+          </div>
+        </div>
+        <!-- Tools & IT -->
+        <div class="skill-category glass-card reveal">
+          <div class="skill-category-icon"><i class="fas fa-tools"></i></div>
+          <h3>IT Support & Tools</h3>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fab fa-git-alt" style="color:#f05032"></i><span>Git/GitHub</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="85%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fas fa-network-wired" style="color:#06b6d4"></i><span>Networking</span>
+            </div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="88%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fas fa-terminal" style="color:#4ade80"></i><span>Linux</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="80%"></div>
+            </div>
+          </div>
+          <div class="skill-item">
+            <div class="skill-info"><i class="fas fa-headset" style="color:#f59e0b"></i><span>IT Support</span></div>
+            <div class="skill-bar-wrap">
+              <div class="skill-bar" data-width="90%"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== PROJECTS ========== -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">My Work</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-desc">A collection of projects that showcase my skills and passion for development.</p>
+      </div>
+      <div class="project-filters reveal">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="web">Web App</button>
+        <button class="filter-btn" data-filter="bot">Bot/AI</button>
+        <button class="filter-btn" data-filter="mobile">Mobile</button>
+      </div>
+      <div class="projects-grid">
+        <!-- Project 1: IT Service Chat Bot -->
+        <div class="project-card glass-card reveal" data-category="bot">
+          <div class="project-image zoom-on-hover">
+            <img
+              src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'><defs><linearGradient id='g1' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%2306b6d4'/><stop offset='100%25' style='stop-color:%238b5cf6'/></linearGradient></defs><rect fill='%23111827' width='600' height='400'/><rect x='150' y='60' width='300' height='280' rx='20' fill='%231e293b'/><circle cx='300' cy='140' r='40' fill='url(%23g1)' opacity='0.4'/><text x='300' y='150' text-anchor='middle' font-size='40' fill='%2306b6d4'>🤖</text><rect x='190' y='200' width='140' height='24' rx='12' fill='%231e293b' stroke='%2306b6d4' stroke-width='1'/><rect x='270' y='240' width='140' height='24' rx='12' fill='url(%23g1)' opacity='0.3'/><rect x='190' y='280' width='120' height='24' rx='12' fill='%231e293b' stroke='%2306b6d4' stroke-width='1'/></svg>"
+              alt="IT Service Chat Bot" />
+            <div class="project-overlay">
+              <a href="https://github.com/koko-1993/IT_Service_Chat_Bot" target="_blank" class="btn btn-outline"><i
+                  class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>IT Service Chat Bot</h3>
+            <p>AI-powered chat bot designed to handle IT service desk queries and automate support workflows.</p>
+            <div class="project-tags">
+              <span>Python</span><span>AI</span><span>Chat Bot</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 2: POS Management System -->
+        <div class="project-card glass-card reveal" data-category="mobile">
+          <div class="project-image zoom-on-hover">
+            <img
+              src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'><defs><linearGradient id='g2' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%2310b981'/><stop offset='100%25' style='stop-color:%2306b6d4'/></linearGradient></defs><rect fill='%23111827' width='600' height='400'/><rect x='180' y='40' width='240' height='320' rx='16' fill='%231e293b'/><rect x='200' y='70' width='200' height='35' rx='6' fill='url(%23g2)' opacity='0.25'/><rect x='200' y='120' width='95' height='80' rx='8' fill='%23111827'/><rect x='305' y='120' width='95' height='80' rx='8' fill='%23111827'/><rect x='200' y='210' width='95' height='80' rx='8' fill='%23111827'/><rect x='305' y='210' width='95' height='80' rx='8' fill='%23111827'/><rect x='200' y='310' width='200' height='35' rx='6' fill='url(%23g2)' opacity='0.4'/></svg>"
+              alt="POS Management System" />
+            <div class="project-overlay">
+              <a href="https://github.com/koko-1993/POS_Management_System" target="_blank" class="btn btn-outline"><i
+                  class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>POS Management System</h3>
+            <p>Point of Sale software built with Flutter/Dart for managing sales, inventory, and transactions.</p>
+            <div class="project-tags">
+              <span>Dart</span><span>Flutter</span><span>POS</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 3: Group Chat Room -->
+        <div class="project-card glass-card reveal" data-category="web">
+          <div class="project-image zoom-on-hover">
+            <img
+              src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'><defs><linearGradient id='g3' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%23ec4899'/><stop offset='100%25' style='stop-color:%238b5cf6'/></linearGradient></defs><rect fill='%23111827' width='600' height='400'/><rect x='80' y='40' width='440' height='320' rx='12' fill='%231e293b'/><rect x='80' y='40' width='120' height='320' rx='12' fill='%23111827'/><circle cx='140' cy='100' r='16' fill='url(%23g3)' opacity='0.4'/><circle cx='140' cy='145' r='16' fill='%23111827' stroke='%2306b6d4' stroke-width='1'/><circle cx='140' cy='190' r='16' fill='%23111827' stroke='%238b5cf6' stroke-width='1'/><rect x='220' y='80' width='200' height='30' rx='15' fill='%23111827'/><rect x='300' y='130' width='180' height='30' rx='15' fill='url(%23g3)' opacity='0.2'/><rect x='220' y='180' width='160' height='30' rx='15' fill='%23111827'/><rect x='220' y='300' width='280' height='40' rx='8' fill='%23111827'/></svg>"
+              alt="Group Chat Room" />
+            <div class="project-overlay">
+              <a href="https://github.com/koko-1993/groupchatroom" target="_blank" class="btn btn-outline"><i
+                  class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Group Chat Room</h3>
+            <p>Real-time group chat application built with Express server and WebSocket for instant messaging.</p>
+            <div class="project-tags">
+              <span>Node.js</span><span>Express</span><span>WebSocket</span>
+            </div>
+          </div>
+        </div>
+        <!-- Project 4: Student Management -->
+        <div class="project-card glass-card reveal" data-category="web">
+          <div class="project-image zoom-on-hover">
+            <img
+              src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'><defs><linearGradient id='g4' x1='0%25' y1='0%25' x2='100%25' y2='100%25'><stop offset='0%25' style='stop-color:%23f59e0b'/><stop offset='100%25' style='stop-color:%23ef4444'/></linearGradient></defs><rect fill='%23111827' width='600' height='400'/><rect x='60' y='40' width='480' height='40' rx='4' fill='%231e293b'/><rect x='60' y='90' width='480' height='270' rx='4' fill='%231e293b'/><rect x='80' y='105' width='440' height='30' rx='4' fill='url(%23g4)' opacity='0.15'/><rect x='80' y='145' width='440' height='1' fill='%2364748b' opacity='0.3'/><rect x='80' y='160' width='440' height='30' rx='4' fill='%23111827'/><rect x='80' y='200' width='440' height='30' rx='4' fill='%23111827'/><rect x='80' y='240' width='440' height='30' rx='4' fill='%23111827'/><rect x='80' y='280' width='440' height='30' rx='4' fill='%23111827'/></svg>"
+              alt="Student Management" />
+            <div class="project-overlay">
+              <a href="https://github.com/koko-1993/Student_Management" target="_blank" class="btn btn-outline"><i
+                  class="fab fa-github"></i> Code</a>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Student Management System</h3>
+            <p>School.com student management platform for tracking enrollment, grades, and academic records.</p>
+            <div class="project-tags">
+              <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== EXPERIENCE ========== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Experience</span>
+        <h2 class="section-title">My Journey</h2>
+        <p class="section-desc">A timeline of my professional experience and education.</p>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <span class="timeline-date">Present</span>
+            <h3>IT Support Officer</h3>
+            <h4>ILBC (International Language Business Centre)</h4>
+            <p>Managing IT infrastructure, providing technical support, troubleshooting hardware/software issues, and
+              maintaining network systems for smooth daily operations.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <span class="timeline-date">Ongoing</span>
+            <h3>Web Developer</h3>
+            <h4>Personal Projects & Open Source</h4>
+            <p>Building web applications, chat systems, POS software, and AI chat bots. Continuously learning new
+              technologies and contributing to open-source projects on GitHub.</p>
+          </div>
+        </div>
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card glass-card">
+            <span class="timeline-date">Learning Journey</span>
+            <h3>Self-Taught Developer</h3>
+            <h4>Online Learning & Practice</h4>
+            <p>Mastered HTML, CSS, JavaScript, TypeScript, Python, Dart/Flutter, Node.js, and Express through dedicated
+              self-study and hands-on project building.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== CONTACT ========== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Get In Touch</span>
+        <h2 class="section-title">Let's Work Together</h2>
+        <p class="section-desc">Have a project in mind? I'd love to hear from you.</p>
+      </div>
+      <div class="contact-grid">
+        <div class="contact-info-card glass-card reveal">
+          <h3>Contact Information</h3>
+          <p>Feel free to reach out. I'm always open to new opportunities and collaborations.</p>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+            <div class="contact-item-text">
+              <span>Email</span>
+              <p>koko2652010@gmail.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+            <div class="contact-item-text">
+              <span>Location</span>
+              <p>Myanmar</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><i class="fab fa-github"></i></div>
+            <div class="contact-item-text">
+              <span>GitHub</span>
+              <p>github.com/koko-1993</p>
+            </div>
+          </div>
+          <div class="contact-socials">
+            <a href="https://github.com/koko-1993" target="_blank" rel="noopener"><i class="fab fa-github"></i></a>
+            <a href="mailto:koko2652010@gmail.com"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <form class="contact-form-card glass-card reveal" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project Discussion" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-ripple btn-submit">
+            <i class="fas fa-paper-plane"></i> Send Message
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <a href="#hero" class="footer-logo"><i class="fas fa-rocket"></i> <span class="gradient-text">My
+            Portfolio</span></a>
+        <div class="footer-links">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Ko Ko. All rights reserved. Built with ❤️ and clean code.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top -->
+  <a href="#hero" class="back-to-top" aria-label="Back to top"><i class="fas fa-arrow-up"></i></a>
+
+  <!-- Scripts -->
+  <script src="js/particles.js"></script>
+  <script src="js/typewriter.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
